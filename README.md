@@ -1,0 +1,1 @@
+Uses HTML, CSS, and JavaScript to create an on-screen calculator to practice JS fundamentals
