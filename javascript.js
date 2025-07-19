@@ -46,7 +46,6 @@ function opClick (btn) {
 }
 
 function clearOp () {
-    console.log("is this in here");
     if(confirm("This will clear all values currently held in the calculator. Are you sure you want to continue")) {
         firstValue = "";
         currOp = "";
@@ -74,7 +73,6 @@ function evalCalc() {
     else if(currOp == "+") {
         firstNum = firstNum + secondNum;
     }
-    console.log(firstNum);
     firstValue = firstNum.toString();
     currOp = "";
     secondValue = "";
