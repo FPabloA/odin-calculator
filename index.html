@@ -10,30 +10,31 @@
     <div id='calc-wrapper'>
         <div id="calc-display">0</div>
         <div class="calc-btn-row">
-            <button class="calc-num-btn">1</button>
-            <button class="calc-num-btn">2</button>
-            <button class="calc-num-btn">3</button>
-            <button class="calc-op-btn">/</button>
+            <button class="calc-num-btn" onclick=numClick(this)>1</button>
+            <button class="calc-num-btn" onclick=numClick(this)>2</button>
+            <button class="calc-num-btn" onclick=numClick(this)>3</button>
+            <button class="calc-op-btn" onclick=opClick(this)>/</button>
         </div>
 
         <div class="calc-btn-row">
-            <button class="calc-num-btn">4</button>
-            <button class="calc-num-btn">5</button>
-            <button class="calc-num-btn">6</button>
-            <button class="calc-op-btn">X</button>    
+            <button class="calc-num-btn" onclick=numClick(this)>4</button>
+            <button class="calc-num-btn" onclick=numClick(this)>5</button>
+            <button class="calc-num-btn" onclick=numClick(this)>6</button>
+            <button class="calc-op-btn" onclick=opClick(this)>X</button>    
         </div>
         
         <div class="calc-btn-row">
-            <button class="calc-num-btn">7</button>
-            <button class="calc-num-btn">8</button>
-            <button class="calc-num-btn">9</button>
-            <button class="calc-op-btn">-</button>
+            <button class="calc-num-btn" onclick=numClick(this)>7</button>
+            <button class="calc-num-btn" onclick=numClick(this)>8</button>
+            <button class="calc-num-btn" onclick=numClick(this)>9</button>
+            <button class="calc-op-btn" onclick=opClick(this)>-</button>
         </div>
 
         <div class="calc-btn-row">
-            <button class="calc-num-btn">0</button>
-            <button class="calc-op-btn">=</button>
+            <button class="calc-num-btn" onclick=numClick(this)>0</button>
+            <button class="calc-op-btn" onclick=evalCalc()>=</button>
             <button class="calc-op-btn" onclick=clearOp()>C</button>
+            <button class="calc-op-btn" onclick=opClick(this)>+</button>
         </div>
     </div>
     
